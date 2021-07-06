@@ -20,7 +20,7 @@ line(this.launcher.pointB.x,this.launcher.pointB.y,this.launcher.bodyA.position.
 fly(){
     this.launcher.bodyA=null;
 }
-attach(bodyA){
+attach(startA){
     this.launcher.bodyA=startA
 }
 }
